@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+
+}
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+
+.logo {
+    background-image: url("download.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    
+
+}
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+/** box 2 **/
+.add-first {
+    color: #cccccc;
+    font-size: 0.45;
+    margin-left:  15px; 
+}
+
+.add-sec {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/** box 3 **/
+.nav-search {
+    display: flex;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+
+
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border: none;
+
+
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+}
+.nav-search:hover {
+    border: 2px solid orange;
+}
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+.nav-en {
+    
+    margin-left: 25px;
+    width:  12px;
+    background-color: black;
+    display: flex;
+    font-size: 1rem;
+}
+/** box 4 **/
+span {
+    font-size: 0.7rem;
+
+}
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/** box 5 **/
+.nav-cart i {
+    font-size: 38px;
+}
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/** panel **/
+.panel {
+    height: 45px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content:space-evenly;
+}
+* {
+    box-sizing: border-box;
+}
+.panel-all {
+    height: 30px;
+    width: 80px;
+    position: relative;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+
+    
+
+    
+}
+.sub-all {
+    height: auto;
+    width: 80px;
+    background-color: white;
+    position: absolute;
+    
+    justify-content: center;
+    padding: 18px;
+    display: none;
+    
+    
+    
+
+
+}
+a {
+    color: white;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    
+
+}
+.panel-all:hover .sub-all {
+    display: block;
+}
+.panel-ops p {
+    display: inline;
+    margin: 15px;
+
+    
+}
+.panel-ops {
+    width:70%;
+    font-size: 0.85rem;
+}
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
